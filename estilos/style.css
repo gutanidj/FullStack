@@ -1,0 +1,95 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(235, 228, 209);
+}
+
+h1 {
+    color: rgb(229, 86, 4);
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+h2 {
+    color: rgb(38, 87, 124);
+    font-size: 24px;
+    padding-left: 15px;
+}
+
+h3 {
+    color: rgb(180, 180, 179);
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+table {
+    text-align: center;
+    background-color: rgb(180, 180, 179);
+}
+
+div {
+    padding-left: 30px;
+}
+
+#img_ph:hover {
+    transform: scale(1.5, 1.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Menu--------------------------------------------------*/
+.contenedor {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(193, 216, 195);
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.contenedor div {
+    margin: 5px;
+    color: rgb(38, 87, 124);
+    background-color: rgb(193, 216, 195);
+}
+
+.contenedor div a:hover {
+    color: rgb(229, 86, 4);
+    background-color: rgb(38, 87, 124);
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.contenedor div a {
+    color: rgb(38, 87, 124);
+    text-decoration: none;
+    background-color: rgb(193, 216, 195);
+    font-weight: bolder;
+    margin: 5px;
+    padding: 5px;
+}
+
+/*Menu--------------------------------------------------*/
+
+/*Encabezado--------------------------------------------*/
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo>img {
+    width: 140px;
+    animation: 3s infinite logo_anim;
+    background: transparent;
+}
+
+@keyframes logo_anim {
+    0% {transform: rotateZ(0deg);}
+    100% {transform: rotateZ(360deg);}
+}
+
+/*Encabezado--------------------------------------------*/
